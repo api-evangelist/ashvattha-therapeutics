@@ -1,8 +1,20 @@
 aid: ashvattha-therapeutics
 name: Ashvattha Therapeutics
-description: 'Ashvattha Therapeutics is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: 'Ashvattha Therapeutics is a clinical-stage biopharmaceutical company developing
+  a new class of precision nanomedicines built on hydroxyl dendrimer therapeutics (HDTs),
+  a platform exclusively licensed from Johns Hopkins University. Hydroxyl dendrimers
+  traverse tissue barriers such as the blood-retinal and blood-brain barrier and are
+  selectively taken up by activated cells in regions of inflammation, allowing known
+  small-molecule drugs to be delivered intracellularly to diseased tissue with sustained
+  effect and reduced off-target exposure. The company is advancing programs across
+  ophthalmology, neurology, and inflammatory disease, led by migaldendranib (MGB),
+  a first-in-class subcutaneously administered nanomedicine in Phase 2 development
+  for diabetic macular edema and neovascular age-related macular degeneration, plus
+  hydroxyl dendrimer PET imaging tracers such as [18F]OP-801. Founded by Jeffrey L.
+  Cleland, Kannan Rangaramanujam, and Sujatha Kannan. Ashvattha publishes no public
+  developer program, API, or machine-readable interface.'
 url: https://raw.githubusercontent.com/api-evangelist/ashvattha-therapeutics/refs/heads/main/apis.yml
+image: https://avttx.com/wp-content/uploads/2019/05/logo.png
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
@@ -12,12 +24,55 @@ created: '2026-07-31'
 modified: '2026-07-31'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Life Sciences
+- Nanomedicine
+- Drug Development
+- Clinical Trials
+- Ophthalmology
+- Neurology
+- Health
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-31'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/ashvattha-therapeutics-domain-security.yml
+- type: LLMsTxt
+  url: llms/ashvattha-therapeutics-llms.txt
 - type: Website
+  url: https://avttx.com/
+- type: About
+  url: https://avttx.com/about/
+- type: Technology
+  url: https://avttx.com/technology/
+- type: Pipeline
+  url: https://avttx.com/pipeline/
+- type: Blog
+  name: News
+  url: https://avttx.com/news/
+- type: BlogRSS
+  name: News RSS
+  url: https://avttx.com/feed/
+- type: Resources
+  url: https://avttx.com/resources/
+- type: Careers
+  url: https://avttx.com/careers/
+- type: Contact
+  url: https://avttx.com/contact/
+- type: PrivacyPolicy
+  url: https://avttx.com/privacy-policy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/ashvattha-therapeutics-inc
+- type: SecondaryMarket
+  name: Forge Global listing
   url: https://forgeglobal.com/ashvattha-therapeutics_stock/

@@ -1,0 +1,37 @@
+# Ashvattha Therapeutics
+
+> Clinical-stage biopharmaceutical company developing precision nanomedicines built on hydroxyl dendrimer therapeutics (HDTs), a platform exclusively licensed from Johns Hopkins University. Hydroxyl dendrimers traverse tissue barriers such as the blood-retinal and blood-brain barrier and are selectively taken up by activated cells in regions of inflammation, delivering known small-molecule drugs intracellularly to diseased tissue. Programs span ophthalmology, neurology, and inflammatory disease, led by migaldendranib (MGB), a subcutaneously administered nanomedicine in Phase 2 development for diabetic macular edema and neovascular age-related macular degeneration.
+
+## APIs
+
+Ashvattha Therapeutics publishes no public API, developer portal, or machine-readable interface as of 2026-07-31. Probes of avttx.com for OpenAPI, GraphQL, MCP, `/.well-known/` discovery documents, and an A2A agent card all returned 404, and no api/developer/docs subdomain resolves in DNS.
+
+## Company
+
+- [Website](https://avttx.com/): Company home.
+- [About Us](https://avttx.com/about/): Senior management, board of directors, clinical advisory board.
+- [Technology](https://avttx.com/technology/): The hydroxyl dendrimer therapeutics (HDT) platform.
+- [Pipeline](https://avttx.com/pipeline/): Programs across ophthalmology, neurology, and inflammation.
+- [Migaldendranib (MGB)](https://avttx.com/pipeline/ophthalmology/): Lead subcutaneous nanomedicine for DME and wet AMD.
+- [Resources](https://avttx.com/resources/): Publications, presentations, and white papers.
+- [Careers](https://avttx.com/careers/): Open roles.
+- [Contact](https://avttx.com/contact/): info@avttx.com.
+
+## News
+
+- [News](https://avttx.com/news/): Company announcements and clinical data releases.
+- [News RSS](https://avttx.com/feed/): RSS 2.0 feed of the news stream.
+
+## Policies
+
+- [Privacy Policy](https://avttx.com/privacy-policy/)
+
+## Elsewhere
+
+- [LinkedIn](https://www.linkedin.com/company/ashvattha-therapeutics-inc)
+- [Forge Global listing](https://forgeglobal.com/ashvattha-therapeutics_stock/): Secondary-market profile.
+
+## API Evangelist
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/ashvattha-therapeutics/refs/heads/main/apis.yml): Machine-readable index of everything above.
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/ashvattha-therapeutics/refs/heads/main/security/ashvattha-therapeutics-domain-security.yml): Probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture.

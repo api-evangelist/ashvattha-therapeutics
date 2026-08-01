@@ -1,0 +1,35 @@
+generated: '2026-07-31'
+method: probed
+source: live HTTP probes of avttx.com
+host: https://avttx.com
+note: >-
+  Every /.well-known/ discovery path probed on the only host Ashvattha Therapeutics
+  operates (avttx.com) returned 404. No documents were harvested, so this index
+  carries no WellKnown pointer in apis.yml — it is a record of negative evidence so
+  later enrichment rounds do not repeat the probe blindly.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /.well-known/agent-card.json
+  status: 404
+- path: /.well-known/agent.json
+  status: 404
+x-evidence:
+  fetched: '2026-07-31'
+  hosts_probed:
+  - avttx.com
+  subdomains_probed_no_dns:
+  - api.avttx.com
+  - developer.avttx.com
+  - docs.avttx.com
+  - trust.avttx.com
+  - security.avttx.com
+  - status.avttx.com
