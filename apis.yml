@@ -14,6 +14,17 @@ description: 'Ashvattha Therapeutics is a clinical-stage biopharmaceutical compa
   Cleland, Kannan Rangaramanujam, and Sujatha Kannan. Ashvattha publishes no public
   developer program, API, or machine-readable interface.'
 url: https://raw.githubusercontent.com/api-evangelist/ashvattha-therapeutics/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 image: https://avttx.com/wp-content/uploads/2019/05/logo.png
 x-type: company
 x-source: harvest:secondary-market
